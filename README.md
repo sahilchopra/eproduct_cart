@@ -5,6 +5,7 @@ where any e-product (such as pdf, docs, csv, ppt etc.) can be bought from the co
 
 
 ## Live Application
+https://eproduct-cart.herokuapp.com/
 You can access admin section by using credentials:
 ```sh
 username: 1991sahilchopra@gmail.com
