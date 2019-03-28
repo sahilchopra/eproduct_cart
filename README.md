@@ -10,14 +10,6 @@ You can access admin section by using credentials:
 username: 1991sahilchopra@gmail.com
 password: admin123
 ```
-
-## System dependencies
-* Ruby version: 2.3.0
-* Rails version: 5.0.0
-* psql (PostgreSQL) 9.6.1
-* ImageMagick(https://www.imagemagick.org)
-* Authy API key(https://www.twilio.com/)
-
 ## Installation
 
 Make sure you have [Ruby](https://www.ruby-lang.org), PostgreSQL, ImageMagick and [Bundler](http://bundler.io)
