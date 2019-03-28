@@ -3,13 +3,24 @@
   <head>
     <title>EproductCart</title>
     <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
   </head>
 
   <body>
-    <%= yield %>
+
+    <!-- Navigation -->
+    <%= render partial: 'common/header' %>
+
+    <!-- Page Content -->
+    <div class="container">
+        <%= yield %>
+    </div>
+    <!-- /.container -->
+
+    <%= render partial: 'common/footer' %>
+    <!-- /.container -->
+
+    <%= render partial: 'common/modal' %>
+    <%= javascript_include_tag 'application' %>
   </body>
 </html>
